@@ -1,0 +1,256 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.small-capital-text{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+p.small-capital-text{
+    cursor: text;
+}
+
+a.small-capital-text:hover{
+    color: rgb(113, 113, 113);
+}
+
+header{
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+nav .logo a{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+nav .nav-items ul{
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-items ul li a{
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+nav .nav-items ul li a:hover{
+    color: rgb(74, 74, 74);
+}
+
+.header-section{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    background-color: rgb(255, 203, 131);
+    /* padding-left: 100px; */
+}
+
+.header-section p{
+    padding-top: 150px;
+}
+
+.header-section .heading{
+    margin: 0;
+    font-size: 90px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+}
+
+.card-container .card h4{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.card-container .card a{
+    text-decoration: underline;
+}
+
+.about-me{
+    color: rgb(237, 237, 237);
+    background-color: rgb(29, 29, 29);
+    height: 130vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.about-me .text-content{
+    width: 70%; 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me .text-content .heading{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.about-me .text-content a{
+    text-decoration: underline;
+    color: white;
+}
+
+.about-me .text-content a:hover{
+    color: rgb(236, 236, 236);
+}
+
+.about-me .image-content{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    width: 100%;
+    object-fit: contain;
+}
+
+.section{
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+    padding-top: 100px;
+}
+
+.blog-topics{
+    height: 130vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.blog-topics h4{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.blog-topics .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: px; */
+}
+
+.blog-topics .container .card{
+    margin: auto;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.blog-topics .container .card img{
+    height: 80vh;
+}
+
+.blog-topics .container .card p{
+    display: inline;
+    text-decoration: underline;
+}
+
+.blog-topics .container .card a{
+    text-decoration: underline;
+}
+
+.socials{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.socials h4{
+    font-size: 55px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.socials .text-content{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.socials .links{
+    margin-top: 60px;
+    align-items: center;
+}
+
+.socials .links a i{
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+}
+
+.socials .links a:first-child{
+    margin-left: 0;
+}
+
+footer .gallery{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .gallery .gallery-item1{
+    background-image: url("https://images.pexels.com/photos/848117/pexels-photo-848117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .gallery .gallery-item2{
+    background-image: url("https://img.freepik.com/free-photo/still-life-black-background_52683-100727.jpg?w=360&t=st=1694683888~exp=1694684488~hmac=32a83f73560455825edb05cb4a7f1c7de499cc76e3aa850c6e3e471961f04a1a");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .gallery .gallery-item3{
+    background-image: url("https://img.freepik.com/free-photo/old-black-wall-background-texture-with-border-black-vignette-ba_1258-44.jpg?w=740&t=st=1694683911~exp=1694684511~hmac=646360f7ac2b131689c94be7accce18302ad70926f1d58a578ee4ae18a95754e");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .gallery .gallery-item4{
+    background-image: url("https://img.freepik.com/free-photo/gray-scale-shot-person-sitting-big-rock-middle-foggy-river_181624-4621.jpg?w=826&t=st=1694683926~exp=1694684526~hmac=aae6a8b41895f136eac9787a1730edbc3a601fbaccb2388903501ba002cb440c");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
